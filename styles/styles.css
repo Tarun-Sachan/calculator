@@ -1,0 +1,85 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.button{
+   padding: 30px; 
+   margin-top: 10px;
+   margin-right: 10px;
+   font-weight: 400;
+   font-size: 1.5rem;
+   border: 2px solid whitesmoke;
+   border-radius: 20px;
+   cursor: pointer;
+   background: rgb(82, 82, 82);
+   
+   
+}
+button:hover{
+    background-color: grey;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+   
+}
+.row{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.row input{
+    
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    font-size: 2rem;
+    border: 4px solid  black;
+    border-radius: 20px;
+    background-color: rgb(160, 160, 160);
+}
+.container{
+    
+    border: 5px solid black;
+    max-width: 450px;
+    min-width: 450px;
+    padding: .5rem;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
+}
+h2 a{
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: none;
+}
+h2 a:hover {
+    color: grey;
+    font-weight: 900;
+    font-style: normal;
+}
+h2 a:visited{
+    color: grey;
+}
+
+.button last{
+    padding-left: 20rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.855);
+    
+}
+h1:hover{
+    text-decoration: underline;
+    color:darkcyan;
+    font-style: italic;
+    
+
+}
